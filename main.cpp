@@ -65,8 +65,8 @@ int main()
     cout << "Puis on affiche le double pour les 2 couleurs." << endl;
     cout << "Toutes les dimensions sont en millimètres, arrondies à la valeur supérieure." << endl; // unsigned int  : 65535 max.
     cout << "Les hauteurs demandées sont les hauteurs en bois : \n si vous voulez ajouter une base en feutre, cela ne compte pas.\n" << endl;
-    cout << "Quel est le nom du fichier pour la sauvegarde ? \n (Avec l'extension, en ajout. \n Attention : Si le nom n'est pas valide, par exemple vide : pas de sauvegarde." << endl;
-    string file = "";
+    cout << "Quel est le nom du fichier pour la sauvegarde ? \n (Avec l'extension, en ajout.) \n Attention : Si le nom n'est pas valide, par exemple vide : pas de sauvegarde." << endl;
+    string file = "";)
     getline ( cin, file );
 
     cout << "Je vais supposer que vous utilisez une seule lame." << endl;
