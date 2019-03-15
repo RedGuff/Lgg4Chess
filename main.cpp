@@ -70,7 +70,7 @@ int main()
     getline ( cin, file );
 
     cout << "Je vais supposer que vous utilisez une seule lame." << endl;
-    // Ordre choisi : le plus facile à comprendre, progressif. Pas l'ordre de placement, si de valeur croissante.
+    // Ordre choisi : le plus facile à comprendre, progressif. Pas l'ordre de placement, ni de valeur croissante.
     unsigned int lame = inputNb ( 1, 42, "Quelle est la largeur de cette lame, en mm ? \n(Ajoutez-y une marge éventuelle.)", "Un nombre normal !" );
     unsigned int pion = inputNb ( 1, 4200, "Quelle est la hauteur de chaque pion, en mm ? \n(Sa valeur vaut 1.)", "Un nombre normal !" ); // 1 mm = une rondelle avec une image dessus.
     unsigned int tour = inputNb ( 1, 4200, "Quelle est la hauteur de chaque tour, en mm ? \n(Sa valeur vaut 5.)", "Un nombre normal !" );
